@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        caveat: ['"Caveat"', "cursive"],
+        'Protest-Guerrilla': ['"Protest Guerrilla"', "sans-serif"],
       },
     },
   },
