@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="flex p-10 w-screen h-screen border-4 gap-5 font-Protest-Guerrilla">
+      <div className="flex p-10 w-screen h-screen border-4 border-black  gap-5 font-Protest-Guerrilla">
         <div className="w-1/2">
           <div className="border-4 w-4/4 h-1/3 text-3xl">Picture</div>
           <div className="my-5 border-4 text-3xl pl-3">
@@ -35,21 +35,19 @@ function App() {
             <div className="pl-16">EDUCATION</div>
             <div className="text-xl flex">
               <div className="w-10 flex flex-col">
-                2020
+                2012
                 <div className="grow w-1 bg-black ml-6"></div>
               </div>
               <div className="pl-8 ">
-                HCM City University of Fine Arts (HCMUFA) <div>
-                Completed the Polyart's trainning 
-                program: Graphic Designer Pro
-                </div>
+                Don Bosco Tecnical School{" "}
+                <div>Completed the Printing Department</div>
               </div>
             </div>
             <div className="text-xl flex">
-              <div className="w-10">2021</div>
+              <div className="w-10">2016</div>
               <div className="pl-8">
-                Industrial University of HCM city (IUH)
-                <div>Marketing major</div>
+                South East Bangkok University (IM)
+                <div>Industrial Management</div>
               </div>
             </div>
           </div>
@@ -57,38 +55,31 @@ function App() {
             <div className="pl-16 ">EXPERIENCE</div>
             <div className="text-xl flex">
               <div className="w-10 flex flex-col">
-                2020
+                2015
                 <div className="grow w-1 bg-black ml-6"></div>
               </div>
               <div className="pl-8">
-                Sen Vang
+                OUTSOUCRE
+                <div className="">IT Helpdesk</div>
+              </div>
+            </div>
+            <div className="text-xl flex">
+              <div className="w-10 flex flex-col">
+                2016
+                <div className="grow w-1 bg-black ml-6"></div>
+              </div>
+              <div className="pl-8">
+                RICOH
                 <div className="">
-                  Internship in Marketing Department Designing Social media post
-                  Designing PowerPoint presentation, Content creation for
-                  Facebook's fanpages
+                  Maintenance,  Machine Installation Printer, Other Project
                 </div>
               </div>
             </div>
             <div className="text-xl flex">
-            <div className="w-10 flex flex-col">
-                2020
-                <div className="grow w-1 bg-black ml-6"></div>
-              </div>
+              <div className="w-10">2022</div>
               <div className="pl-8">
-                Minh Bo Studio
-                <div className="">
-                  Designing Social media post, Catalogue,...
-                </div>
-              </div>
-            </div>
-            <div className="text-xl flex">
-              <div className="w-10">New</div>
-              <div className="pl-8">
-                Freelancer
-                <div className="">
-                  Designing Social media post, branding,print ads, cover
-                  artwork, T-shirt
-                </div>
+                AUTOBOT
+                <div className="">Maintenance Machine ROBOT</div>
               </div>
             </div>
           </div>
@@ -110,7 +101,25 @@ function App() {
             </p>
           </div>
           <div className="my-5 border-4 black h-1/4 text-4xl">SKILL</div>
-          <div className="my-5 border-4 black h-1/4 text-4xl">EXPERTISE</div>
+          <div className="my-5 border-4 black h-1/4 text-4xl">
+            <div className="">EXPERTISE</div>
+            <div className="flex justify-evenly mt-4">
+              <div className="fa-brands fa-html5 pl-3 grid justify-items-center">
+                <div>
+                  <p className="text-sm">HTML</p>
+                </div>
+              </div>
+              <div className="fa-brands fa-css3-alt grid justify-items-center">
+                <div><p className="text-sm">CSS</p></div>
+              </div>
+              <div className="fa-brands fa-js grid justify-items-center">
+                <div><p className="text-sm">Javascript</p></div>
+              </div>
+              <div className="fa-brands fa-react grid justify-items-center">
+                <div><p className="text-sm">React</p></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
