@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         'Protest-Guerrilla': ['"Protest Guerrilla"', "sans-serif"],
+        'Afacad-Flux': ['"Afacad Flux"',"sans-serif"]
       },
     },
   },
