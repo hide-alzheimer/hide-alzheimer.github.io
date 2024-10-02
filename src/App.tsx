@@ -2,6 +2,7 @@
 // import reactLogo from "./assets/react.svg";
 // import viteLogo from "/vite.svg";
 // import "./App.css";
+import Animepng from "/JEMAGER.jpg";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -9,7 +10,9 @@ function App() {
   return (
     <>
       <div className="grid md:grid-cols-2 gap-5 p-10 w-screen h-screen font-Protest-Guerrilla">
-        <div className="text-3xl order-0 h-60 grid justify-items-center border-2 border-rose-100">Picture</div>
+        <div className="flex justify-center text-3xl order-0 h-auto border-2 border-red-700">
+          <img className="" src={Animepng} alt="" />
+        </div>
         <div className="order-3 my-2 text-3xl pl-3 border-2 border-rose-100">
           <div className="pl-16">ABOUTME</div>
           <div className="text-xl font-Afacad-Flux">
