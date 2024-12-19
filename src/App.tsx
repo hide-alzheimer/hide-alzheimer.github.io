@@ -18,7 +18,7 @@ function App() {
           <div className="text-xl font-Afacad-Flux">
             <ul className="list-outside">
               <li>
-              <i className="fas fa-info-circle mx-3"></i>Wara Paisawangphant
+                <i className="fas fa-info-circle mx-3"></i>Wara Paisawangphant
               </li>
               <li>
                 <i className="fa-solid fa-calendar mx-3"></i>08/12/1992
@@ -87,13 +87,13 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="order-1 text-center text-4xl border-2 border-rose-100">
+        <div className="order-1 text-center text-4xl border-2 border-rose-100 flex flex-col justify-center">
           Job position
-          <p>Front-end Developer</p>
+          <p className="font-Afacad-Flux">Front-end Developer</p>
         </div>
         <div className="order-2 my-2 border-2 border-rose-100 font-Afacad-Flux">
           <p>
-          I am interested and determined to learn about web development. I started studying HTML, CSS, JavaScript, and other technologies to develop coding skills and create websites as an expert in software engineering. Currently, I am opening up opportunities to learn from work experiences to improve and develop coding skills to be more effective in the future.
+            I am interested and determined to learn about web development. I started studying HTML, CSS, JavaScript, and other technologies to develop coding skills and create websites as an expert in software engineering. Currently, I am opening up opportunities to learn from work experiences to improve and develop coding skills to be more effective in the future.
           </p>
         </div>
         <div className="order-7 text-4xl border-2 border-rose-100">
