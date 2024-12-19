@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 gap-5 p-10 w-screen h-screen font-Protest-Guerrilla">
+      <div className="grid md:grid-cols-2 gap-5 p-8 font-Protest-Guerrilla">
         <div className="flex justify-center text-3xl order-0 h-auto border-2 border-red-700">
           <img className="" src={Animepng} alt="" />
         </div>
@@ -91,7 +91,7 @@ function App() {
           Job position
           <p className="font-Afacad-Flux">Front-end Developer</p>
         </div>
-        <div className="order-2 my-2 border-2 border-rose-100 font-Afacad-Flux">
+        <div className="order-2 my-2 border-2 border-rose-100 font-Afacad-Flux lg:text-xl">
           <p>
             I am interested and determined to learn about web development. I started studying HTML, CSS, JavaScript, and other technologies to develop coding skills and create websites as an expert in software engineering. Currently, I am opening up opportunities to learn from work experiences to improve and develop coding skills to be more effective in the future.
           </p>
