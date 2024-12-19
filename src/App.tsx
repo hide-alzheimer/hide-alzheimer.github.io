@@ -14,21 +14,23 @@ function App() {
           <img className="" src={Animepng} alt="" />
         </div>
         <div className="order-3 my-2 text-3xl pl-3 border-2 border-rose-100">
-          <div className="pl-16">ABOUTME</div>
+          <div className="pl-16">ABOUT ME</div>
           <div className="text-xl font-Afacad-Flux">
             <ul className="list-outside">
+              <li>
+              <i className="fas fa-info-circle mx-3"></i>Wara Paisawangphant
+              </li>
               <li>
                 <i className="fa-solid fa-calendar mx-3"></i>08/12/1992
               </li>
               <li>
-                <i className="fa-solid fa-phone mx-3"></i>090 951 2444
+                <i className="fa-solid fa-phone mx-3"></i><a href="tel:+66909512444">090 951 2444</a>
               </li>
               <li>
-                <i className="fa-solid fa-at mx-3"></i>polterskii@gmail.com
+                <i className="fa-solid fa-at mx-3"></i><a href="mailto:polterski@gmail.com">polterski@gmail.com</a>
               </li>
               <li>
-                <i className="fa-solid fa-thumbs-up mx-3"></i>
-                instagram.com/peter
+                <i className="fab fa-github mx-3"></i><a href="https://github.com/hide-alzheimer" target="_blank">github.com/hide-alzheimer</a>
               </li>
             </ul>
           </div>
@@ -91,13 +93,7 @@ function App() {
         </div>
         <div className="order-2 my-2 border-2 border-rose-100 font-Afacad-Flux">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            cumque reiciendis dolor quidem suscipit iste enim delectus molestiae
-            atque exercitationem vero consequuntur recusandae nesciunt
-            voluptatum dignissimos iusto doloremque, adipisci itaque quae? Vitae
-            harum nemo autem necessitatibus dicta modi debitis ipsa placeat
-            ducimus hic dolores doloribus odio cupiditate, voluptatibus, aliquam
-            accusantium.
+          I am interested and determined to learn about web development. I started studying HTML, CSS, JavaScript, and other technologies to develop coding skills and create websites as an expert in software engineering. Currently, I am opening up opportunities to learn from work experiences to improve and develop coding skills to be more effective in the future.
           </p>
         </div>
         <div className="order-7 text-4xl border-2 border-rose-100">
